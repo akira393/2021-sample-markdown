@@ -1,0 +1,14 @@
+from: markdown+hard_line_breaks
+to: docx
+output-file: result.docx
+
+table-of-contents: true
+toc-depth: 2
+
+input-files:
+- doc/00.md
+- doc/01.md
+- doc/02.md
+- doc/03.md
+
+reference-doc: reference.docx
